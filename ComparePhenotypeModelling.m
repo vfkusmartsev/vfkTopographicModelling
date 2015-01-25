@@ -135,6 +135,21 @@ function report = ComparePhenotypeModelling(phenotype,action, ...
           % This is an example of how to integrate the your own model with
           % the framework
           templatemodel(r);
+          
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+        case 'SimpsonGoodhill'
+
+          % This sets up the intial conditions
+          r = RetinalMap();
+          r.loadExperimentConfigFile(filename);
+          r.placeRetinalRGCdisk();
+          r.placeSC();
+          r.loadGradients(r.phenotype);
+           
+          % This is an example of how to integrate the your own model with
+          % the framework
+          SimpsonGoodhill(r);
         
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
