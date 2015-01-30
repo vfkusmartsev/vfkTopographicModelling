@@ -1,4 +1,0 @@
-classdef InitialConditionsSG < RetinalMap
-    
-    properties
-        

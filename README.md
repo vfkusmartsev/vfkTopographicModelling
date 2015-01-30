@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RetinalMap
 ==========
 
@@ -96,3 +97,7 @@ can work directly with the `RetinalMap` class.
 	r.plotMapForward(1);
 
 For more instructions see the `readme.rtf` file.
+=======
+# vfkTopographicModelling
+A repository tracking my changes whilst creating a Matlab script for a retinal topographic model.
+>>>>>>> 723cc0bf4b9b92c160122c991d65c27a48fb7de6
